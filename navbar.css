@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Ephesis";
+  src: url("./media/Ephesis-Regular.ttf");
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar {
+  background-image: url("./media/pexels-photo-205316.webp");
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo {
+  font-family: "Ephesis";
+  font-size: 5rem;
+  color: #88f3d9;
+  margin-top: 0;
+}
+
+h1 {
+  font-family: "Playfair Display";
+}
+
+h2 {
+  font-family: "Ephesis";
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.nav-items {
+  list-style: none;
+  float: right;
+  padding: 10px;
+}
+
+.nav-options {
+  display: inline;
+  padding: 0.5rem;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+}
+
+.nav-opt:hover {
+  color: #88f3d9;
+}
+.nav-opt .active {
+  color: #88f3d9;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
