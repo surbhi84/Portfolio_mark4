@@ -1,18 +1,17 @@
+.main {
+  text-align: center;
+}
+
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 
 #hey {
   color: #88f3d9;
 }
 
 h2 {
+  font-family: "Ephesis";
   font-size: 2rem;
   margin: auto;
 }
@@ -70,8 +69,4 @@ article {
   transform: scale(1.1);
   transition: ease-in-out;
   transition-duration: 15ms;
-}
-
-.main {
-  text-align: center;
 }
