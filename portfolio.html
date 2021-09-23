@@ -5,22 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./portfolio.css" />
+    <link rel="stylesheet" href="./navbar.css" />
+
     <title>Surbhi's Portfolio</title>
   </head>
   <body>
-    <nav>
+    <nav class="navbar">
       <div class="nav-container">
-        <a href="portfolio.html">Surbhi Kukreti</a>
+        <div class="logo-container">
+          <a href="portfolio.html"><h1 class="logo">Surbhi Kukreti</h1></a>
+        </div>
+        <ul class="nav-items">
+          <li class="nav-options">
+            <a class="nav-opt" href="/portfolio.html">Home</a>
+          </li>
+          <li class="nav-options">
+            <a class="nav-opt" href="/components/projects.html">Projects</a>
+          </li>
+          <li class="nav-options">
+            <a class="nav-opt" href="/components/blogs.html">Blogs</a>
+          </li>
+        </ul>
       </div>
-      <ul class="nav-items">
-        <li><a href="/portfolio.html">Home</a></li>
-        <li><a href="/components/projects.html">Projects</a></li>
-        <li><a href="/components/blogs.html">Blogs</a></li>
-      </ul>
     </nav>
-    <header><h1>Hey there! welcome to my portfolio.</h1></header>
-    <div class="main">
-      <div>
+    <div class="article-list">
+      <header><h1 id="hey">Hey there! welcome to my portfolio.</h1></header>
+
+      <div class="tabs">
         <h2>About</h2>
         <p>
           Hi i am surbhi, and I'hv recently started my journey in web
@@ -28,26 +39,29 @@
           I'hv created to the date.
         </p>
       </div>
-      <div>
+
+      <div class="tabs">
         <h2>Technologies</h2>
         <p>
           I am familiar with HTML,CSS3,Git,JavaScript,NodeJs,ReactJs and Web
           Hosting
         </p>
       </div>
-      <div>
+
+      <div class="tabs">
         <h2>Projects</h2>
         <p>Let's checkout what i have done so far!</p>
-        <a href="./components/projects.html">click</a>
+        <a class="click" href="./components/projects.html">click</a>
       </div>
-      <div>
+
+      <div class="tabs">
         <h2>blogs</h2>
         <p>
           Writing gives you clarity and the new generation of writing is Blogs,I
           have always cherished the idea of writing thus I wrote a few blogs to
           animate my thoughts into words.Click below to read.
         </p>
-        <a href="./components/blogs.html">click</a>
+        <a class="click" href="./components/blogs.html">click</a>
       </div>
     </div>
     <footer></footer>
